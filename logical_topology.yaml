@@ -1,0 +1,6 @@
+logical_datapath_type:
+- logical_router
+- logical_switch
+
+
+

@@ -1,9 +1,11 @@
-roles:
- - compute
- - gateway
- - l2vtep
-
-- chassis_role:
-  - compute
-- chassis_role:
+- name: hv1
+  role:
   - gateway
+  - compute
+- name: hv2
+  role:
+  - gateway
+  - compute
+- name: hv3
+  role:
+  - compute
