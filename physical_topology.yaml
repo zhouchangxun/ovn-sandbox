@@ -1,0 +1,9 @@
+roles:
+ - compute
+ - gateway
+ - l2vtep
+
+- chassis_role:
+  - compute
+- chassis_role:
+  - gateway
